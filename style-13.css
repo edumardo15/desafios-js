@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font: 12pt;
+}
+
+button {
+    font-size: 12pt;
+    padding: 30px;
+}
+
+h1 {
+    margin: 5px 0 0 5px;
+}
+
+.detalhes {
+    color: black;
+}
+
+.marcador.reprovado {
+    background-color: rgb(255, 124, 124);
+    color: red;
+}
+
+.recuperacao {
+    color: orange;
+}
+
+.marcador.aprovado {
+    background-color: rgb(113, 255, 113);
+    color: green;
+}
